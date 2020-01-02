@@ -1,12 +1,16 @@
----
+
 **Assignment 1 - Agent Based Modelling**
----
+
+**Bio**
+  This is the final module of my second year in MSc GIS at Leeds University.
+  This module involves python based coding to create an agent based model and another independant project of my choice. 
 
 **Model Details**
 
-  This is a simple agent based model in which 10 agents move at random around a raster terrain. 
-  The agents move for 200 iterations then *eat* old data and share new information with the other agents.
+  This project is a simple agent based model in which 10 agents move at random around a raster terrain. 
+  The agents move for 200 iterations then *eats* old data and share new information with the other agents.
   The model initially completed very quickly so the number of iterations has been increased to allow for the model to run for longer.
+  The agents move in a torus fashion so when they reach the end of the environment they automatically turn back and move in the opposite direction. 
 
 **The Code & The Model**
 
