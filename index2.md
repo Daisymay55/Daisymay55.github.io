@@ -1,5 +1,3 @@
-<HTML>
-
 ---
 #**Assignment 1 - Agent Based Modelling**
 ---
@@ -11,4 +9,4 @@
   
 **### The Code & The Model**
   Please click [here](http://github.com/Daisymay55/Daisymay55.github.io/blob/master/ABM%20Unit%207.py) for the code
-</HTML>
+
