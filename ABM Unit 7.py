@@ -4,20 +4,22 @@ Created on Wed Nov 20 20:20:45 2019
 
 @author: Lucy Ewers
 """
-# imports the required functions and modules
+'''imports the required functions and modules - csv reads in a datafile, matplotlib is required to make the map/graph, 
+    agentframework is a related module required to run the program & random allows for a random number of steps to be taken by each agent.'''
 import csv
 import matplotlib.pyplot
 import matplotlib.animation 
 import agentframework
 import random
 
-#pythagoras code for any arbitary pair of agents - determines the distance between any agent pair
+'''pythagoras code for any pair of agents - determines the distance between any agent pair - 
+    allows the agents to determine proximity to each other'''
 
 def distance_between(agents_row_a, agents_row_b):
     return(((agents_row_a.x - agents_row_b.x)**2) + ((agents_row_a.y - agents_row_b.y)**2))**0.5
         
     
-# Creating lists for agents with random starting locations in a 100x100 grid -creates 10 agents who each move 100 times
+# Creating lists for agents with random starting locations in a 100x100 grid -creates 10 agents who each move 500 times
 num_of_agents = 10
 num_of_iterations = 500
 neighbourhood = 20
@@ -29,7 +31,7 @@ axis = figure.add_axes([0,0,1,1])
 
 #axis.set_autoscale_on(False)
    
-# reads 'in.txt' datafile as CSV and prints value as a float
+# reads 'in.txt' datafile as CSV and prints value as a float - creates the environment for the agents to move through (raster terrain background)
 with open('in.txt',newline='') as f:
     environment = []
     reader = csv.reader(f,quoting=csv.QUOTE_NONNUMERIC)
@@ -41,20 +43,21 @@ with open('in.txt',newline='') as f:
         '''print(value)'''
 
 
-#Generates the coordinate pairs for 10 agents
+#Generates the coordinate pairs for 10 agents using the agentframework module
 for i in range(num_of_agents):
     agents.append(agentframework.Agent(environment,agents))
     
 #print (agents)
 
-#updates the animation to allow for continued running of agents through their iterations by moving them, eating previous data and sharing new information with other agents
+'''updates the animation to allow for continued running of agents through their iterations by moving them, 
+eating previous data and sharing new information with other agents'''
 carry_on = True
       
 def update(frame_number):
     figure.clear()
     global carry_on
         
-# Moves the agents one step for 100 iterations & creates a torus grid so agents circle if they reach the edge
+# Moves the agents one step for 500 iterations & creates a torus grid so agents circle if they reach the edge
     for i in range(num_of_agents):
         #for j in range(num_of_iterations):
             agents[i].move()
@@ -66,7 +69,7 @@ def update(frame_number):
         carry_on= False
          
        
-#plotting coordinates as a graph - plots each agent on graph
+#plotting coordinates as a graph - plots each agent on graph and allows for the animation to run
     matplotlib.pyplot.xlim(0, 100)
     matplotlib.pyplot.ylim(0, 100)
     matplotlib.pyplot.imshow(environment)
@@ -87,7 +90,8 @@ def gen_function(b =[0]):
 animation = matplotlib.animation.FuncAnimation(figure, update, repeat=False, frames=gen_function)    
 
    
-# 2nd part of pythagoras calcuation for distance between agents linking to def at start
+'''2nd part of pythagoras calcuation for distance between agents linking to def at start - 
+this allows the agents to determine proximity to each other and move away if required when they share data'''
 for agents_row_a in agents:
     for agents_row_b in agents:
         distance = distance_between(agents_row_a, agents_row_b)
@@ -101,4 +105,3 @@ a.move()
 #print(a.y, a.x)
 
 
-#try and get the shuffle function to work - from unit 6
