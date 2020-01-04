@@ -11,7 +11,7 @@
 **Model Details**
 
   This project is a simple agent based model in which 10 agents move at random around a raster terrain. 
-  The agents move for 200 iterations then *eats* old data and share new information with the other agents.
+  The agents move for 500 iterations then *eats* old data and share new information with the other agents.
   The model initially completed very quickly so the number of iterations has been increased to allow for the model to run for longer.
   The agents move in a torus fashion so when they reach the end of the environment they automatically turn back and move in the opposite    direction. 
 
