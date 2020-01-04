@@ -28,4 +28,5 @@ Additional information required to run the file along with the expected outcome 
 *Licences*
 - Data was supplied by University of Leeds as part of the GEOG5990M Programming for Spatial Analysts: Core Skills module.
 
-[Return to Home](https://daisymay55.github.io/index2.html)
+[Return to Assignment 1](https://daisymay55.github.io/index2.html)
+[Return to Home](https://daisymay55.github.io/home.html)
