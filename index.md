@@ -21,5 +21,5 @@
   
   Please click [here](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/agentframework.py) for the agent module which is also required to run the code.
   
-  For assistance please refer to the [readme](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/readme.md) file.
+  For assistance please refer to the [readme](https://daisymay55.github.io/index.html) file.
 
