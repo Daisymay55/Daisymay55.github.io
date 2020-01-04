@@ -15,6 +15,6 @@ Please click here the source code
 
 Please click here for the Earthquake Map
 
-For assistance please refer to the readme file.
+For assistance please refer to the [readme](https://daisymay55.github.io/as2readme.html) file.
 
 [Return to Home](https://daisymay55.github.io/home.html)
