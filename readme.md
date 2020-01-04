@@ -29,4 +29,7 @@ outline any ‘known issues’, outline any testing done and may provide a sugge
   and sharing the new data with the other agents. 
 - the sharing of data will prevent the agents from colliding and if they become in close proximity of each other or 
   the edge of the map they will automatically move away.
-- a text output will also be generated showing the pythagoras theory for a random pair of agents as they moved around.
+- a text output will also be generated showing the starting coordinates for a random agent, it then shows the new coordinates for that agent after one move. This also proves that the agents are moving around at random as each time the application is run different coordinates will be given. 
+
+*Licences*
+- Data was supplied by University of Leeds as part of the GEOG5990M Programming for Spatial Analysts: Core Skills module.
