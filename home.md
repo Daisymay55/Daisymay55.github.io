@@ -23,4 +23,5 @@ however I plan to incorperate GIS into this role by producing hazard and emergen
 Below are the links to the two assignments that make up this module, along with their associated documentation. 
 
 *[Assignment1](https://daisymay55.github.io/index2.html)*
-*[Assignment 2]*
+
+*[Assignment 2](https://daisymay55.github.io/Assignment2.html)*
