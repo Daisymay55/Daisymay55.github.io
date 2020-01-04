@@ -99,9 +99,13 @@ for agents_row_a in agents:
    # print(distance)
     
 
+'''prints a text output to show the agents are moving. initially prints the starting coordinate pair then prints 
+the new coordinates after the agent has moved once, this could be repeated for any number of moves.'''
 a = agentframework.Agent(environment,agents)
-#print (a.y, a.x)
+print ('starting coordinates =')
+print (a.y, a.x)
 a.move()
-#print(a.y, a.x)
+print ('new coordinates =')
+print (a.y, a.x)
 
 
