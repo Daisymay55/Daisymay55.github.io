@@ -1,10 +1,4 @@
-Auxiliary documentation about the software is expected to include a simple readme file, 
-a licence file and may also include user and developer documentation. 
-The readme should either be a markdown format or simple ASCII text file. 
-It should provide a contents (a simple list of what all the files/directories are), outline what the software is, 
-how it can be run and what is to be expected when it is run, and should point to the licence.) 
-Any additional document might provide more details about how to run the software, what to expect when it is run, 
-outline any ‘known issues’, outline any testing done and may provide a suggested development roadmap. 
+Additional information required to run the file along with the expected outcome is shown below.
 
 *Files required*
 
