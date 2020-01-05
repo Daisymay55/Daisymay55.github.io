@@ -24,12 +24,17 @@ Most of the map features were made using *folium* which is a Python version of t
 
 *The Code & The Earthquake Map*
 
-Please click here the source code
+- Please click [here](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/Earthquakemap.py) the source code
 
-Please click here for the Earthquake Map
+- Please click [here](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/Countries.json) for the associated GeoJson file. 
+N.B. file doesnt load in browser due to size but requires downloading
 
-Please click here for the UML Diagram
+- Please click [here](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/Earthquakes2020.csv) for the associated Earthquake data.
 
-For assistance please refer to the [readme](https://daisymay55.github.io/as2readme.html) file.
+- Please click [here](https://daisymay55.github.io/Earthquake_Distribution.html) for the Earthquake Map
+
+- Please click here for the UML Diagram
+
+- For assistance please refer to the [readme](https://daisymay55.github.io/as2readme.html) file.
 
 [Return to Home](https://daisymay55.github.io/home.html)
