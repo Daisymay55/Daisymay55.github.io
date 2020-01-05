@@ -11,6 +11,12 @@ Additional information required to run the file along with the expected outcome 
 - Any python program is required to edit the code- Created using Spyder
 - Any web browser is suitable for viewing the code - Created with Chrome
 
+  N.B. Application will require the installation of the following python add-ons to work on desktop:
+  
+ - Folium
+ - Pandas
+ - branca.element
+
 *How to run the application*
 
 - Download and save the required files, then open Earthquakemap.py in a python program
