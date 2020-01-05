@@ -10,7 +10,7 @@ Additional information required to run the file along with the expected outcome 
 
 - A python program - This application was created in Spyder but should run in any python program
 
-* How to run the application*
+*How to run the application*
 
 - save the datafiles required into a directory,
 - open a python software and load the ABMUnit7.py file. 
