@@ -13,6 +13,14 @@ The map also contains a terrain baselayer and a population overlay which shows e
 
 The map is designed so that each layer can be turned on/off indivdually so the map output can be tailored to the users needs. 
 
+With regards to map furniture, a scale bar, legend, fullscreen option, search bar, layer toggles and editing tools have been added. These tools are designed to aid user understanding and interaction with the map. The legend was adapted from another persons code and it was made fixed in the bottom right corner rather than moveable as the original version was. It was decided to make it a fixed object as I did not want to have too many moving items obscuring map details. When the search bar was added it searched by country from the GeoJson layer which allowed the user to navigate to a particular country with ease. It has since stopped working despite the code not being changed however I have left it on the map with the hopes that it may start working again, or that another user may be able to fix it. The editing tools were added so the user could customise their outputs and measure the distances between earthquakes or locations with ease.
+
+*Suggested Improvements*
+
+I would have liked to get the search bar functioning again during this project and it is hoped that another user may be able to fix it. 
+
+It was attempted to add a print from browser functionality using the *leafet.browser.print* option however upon investigation into this tool it is part of the *leaflet* package which runs with JavaScript and is not yet adapted for Python. 
+Most of the map features were made using *folium* which is a Python version of the *leaflet* package however print & export functions have not yet been added to *folium*. This was an oversight on my part when I began this project as I am unable to add a print/export function to the map. However the user can still use the standard print from webpage options given by all browsers. If and when a broswer print option is added to *folium* I would like to add it to the map to increase user functionality. 
 
 *The Code & The Earthquake Map*
 
