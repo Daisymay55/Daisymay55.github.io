@@ -98,6 +98,18 @@ map.add_child(folium.plugins.Fullscreen(position='topright'))
 
 '''map.add_child(folium.plugins.MiniMap(position='bottomleft'))'''
 
+# Shows earthquake layer as a heatmap so earthquake clusters can be easily recognised.
+
+data = pandas.read_csv('Earthquakes2020.csv')
+lat = list(data['latitude'])
+long = list(data['longitude'])
+
+for lat,long in zip(lat,long):
+    coordinates = lat,long
+       
+    #print(coordinates)
+
+    map.add_child(folium.plugins.HeatMap([coordinates], name='Earthquake Heatmap',show=False))
 
 #adds legend to the bottom right of the page
     # modified from script by: https://nbviewer.jupyter.org/gist/talbertc-usgs/18f8901fc98f109f2b71156cf3ac81cd 
