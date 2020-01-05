@@ -16,7 +16,7 @@ Having completed my BSc in Environmental Hazards and Disaster Management in 2017
 aspect I most enjoyed from my undergraduate degree. 
 I had worked in the GIS sector for a year when in 2018 I began my MSc in GIS so I could advance in the GIS field. 
 Since then, I have  moved away from the GIS sector and have been working as an Emergency Planning Officer for the past year, 
-however I plan to incorperate GIS into this role by producing hazard and emergency response maps for my team. 
+however I plan to incorporate GIS into this role by producing hazard and emergency response maps for my team. 
 
 *The Assignments*
 
