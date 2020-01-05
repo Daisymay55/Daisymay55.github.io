@@ -20,7 +20,7 @@ With regards to map furniture, a scale bar, legend, fullscreen option, search ba
 I would have liked to get the search bar functioning again during this project and it is hoped that another user may be able to fix it. 
 
 It was attempted to add a print from browser functionality using the *leafet.browser.print* option however upon investigation into this tool it is part of the *leaflet* package which runs with JavaScript and is not yet adapted for Python. 
-Most of the map features were made using *folium* which is a Python version of the *leaflet* package however print & export functions have not yet been added to *folium*. This was an oversight on my part when I began this project as I am unable to add a print/export function to the map. However the user can still use the standard print from webpage options given by all browsers. If and when a broswer print option is added to *folium* I would like to add it to the map to increase user functionality. 
+Most of the map features were made using *folium* which is a Python version of the *leaflet* package however print & export functions have not yet been added to *folium*. This was an oversight on my part when I began this project as I am unable to add a print/export function to the map. However the user can still use the standard print from webpage options given by all browsers. If and when a browser print option is added to *folium* I would like to add it to the map to increase user functionality. 
 
 *The Code & The Earthquake Map*
 
