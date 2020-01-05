@@ -1,12 +1,17 @@
 Additional information required to run the file along with the expected outcome is shown below.
 
 *Files required*
+
 Earthquakemap.py
+
 Earthquakes2020.csv
+
 Countries.json
 
 *Software required*
+
 Any python program is required to edit the code- Created using Spyder
+
 Any web browser is suitable for viewing the code - Created with Chrome
 
 *How to run the application*
