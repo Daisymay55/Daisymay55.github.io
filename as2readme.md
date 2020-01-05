@@ -22,6 +22,7 @@ Additional information required to run the file along with the expected outcome 
 *Licences*
 
 -Earthquake2020.csv was supplied from: https://earthquake.usgs.gov/earthquakes/search/
+
 -Countries.json was supplied from: https://geojson-maps.ash.ms/
 
 [Return to Assignment 2](https://daisymay55.github.io/Assignment2.html)
