@@ -11,7 +11,10 @@ Any web browser is suitable for viewing the code - Created with Chrome
 
 *How to run the application*
 
-- Download and save the required files, then open Earthquakemap.py
+- Download and save the required files, then open Earthquakemap.py in a python program
+- Edit any code as required - some options are currently turned off to reduce the amount of map furniture, these can be turned back on
+- To view the map, press run and the map file will save to the folder you are working in.
+- Open the file which will load in a web browser to view the map output and toggle the layers on/off and using the editing functions as required.
 
 
 *Licences*
