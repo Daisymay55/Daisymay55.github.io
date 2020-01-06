@@ -7,13 +7,17 @@ For this module I created an earthquake map which shows the 2000 largest earthqu
 The earthquakes are colour coded by magnitude and range from Magnitude 6.0 upwards.
 Each earthquake marker is clickable to show additional information as a pop-up, the markers have also been set with a transparency so any overlapping points can be seen. 
 
-The original earthquake file needed amendments in order to style the pop-ups. A selection of information was taken from the earthquake file as not all the data needed to be displayed. It was decided to show the location name, date and magnitude of the earthquakes. The location name had the first letter of each word capitlised in order to make it more aesthetically pleasing. The date field had the time aspect removed as it was deemed unnecessary to show the precise seconds of an earthquake that occured a century ago, I would have liked to of reordered the date field so it read day-month-year rather than year-day-month however I was unable to achieve this. Finally the precise magnitude was included as it was deemed useful for the user to know the exact magnitude of each earthquake after they had chosen a magnitude range that was of interest to them. 
+The original earthquake file needed amendments in order to style the pop-ups. A selection of information was taken from the earthquake file as not all the data needed to be displayed. It was decided to show the location name, date and magnitude of the earthquakes. The location name had the first letter of each word capitalised  in order to make it more aesthetically pleasing. The date field had the time aspect removed as it was deemed unnecessary to show the precise seconds of an earthquake that occurred  a century ago, I would have liked to of reordered the date field so it read day-month-year rather than year-day-month however I was unable to achieve this. Finally the precise magnitude was included as it was deemed useful for the user to know the exact magnitude of each earthquake after they had chosen a magnitude range that was of interest to them. 
 
 The map also contains a terrain baselayer and a population overlay which shows each country colour coded by population. It was decided it may be useful to include the population for each country as this could be used in combination with the earthquake data to gauge the risk to each country. 
 
-The map is designed so that each layer can be turned on/off indivdually so the map output can be tailored to the users needs. 
+The map is designed so that each layer can be turned on/off individually  so the map output can be tailored to the users needs. 
 
 With regards to map furniture, a scale bar, legend, fullscreen option, search bar, layer toggles and editing tools have been added. These tools are designed to aid user understanding and interaction with the map. The legend was adapted from another persons code and it was made fixed in the bottom right corner rather than moveable as the original version was. It was decided to make it a fixed object as I did not want to have too many moving items obscuring map details. When the search bar was added it searched by country from the GeoJson layer which allowed the user to navigate to a particular country with ease. It has since stopped working despite the code not being changed however I have left it on the map with the hopes that it may start working again, or that another user may be able to fix it. The editing tools were added so the user could customise their outputs and measure the distances between earthquakes or locations with ease.
+
+A heatmap element was also created as I thought showing the density of earthquakes would help to identify any clear clusters. The heatmap did not work particularly well so I have not displayed it on the final map but have left the code in place so a user can turn it back on if required. N.B. drastically slows downloading times.
+Instead I produced a separate file to display the heatmap as this loaded much quicker as a standalone file. The colour gradient has not worked as anticipated however I hope it highlights the intended idea.
+N.B. the Heatmap only displays the 100 largest earthquakes as trying to display all 2000 prevented the webpage from loading.
 
 *Suggested Improvements*
 
@@ -21,6 +25,8 @@ I would have liked to get the search bar functioning again during this project a
 
 It was attempted to add a print from browser functionality using the *leafet.browser.print* option however upon investigation into this tool it is part of the *leaflet* package which runs with JavaScript and is not yet adapted for Python. 
 Most of the map features were made using *folium* which is a Python version of the *leaflet* package however print & export functions have not yet been added to *folium*. This was an oversight on my part when I began this project as I am unable to add a print/export function to the map. However the user can still use the standard print from webpage options given by all browsers. If and when a browser print option is added to *folium* I would like to add it to the map to increase user functionality. 
+
+I would like to modify the heatmap so it works as intended for all 2000 earthquakes records however I do not know how to correct this. I have left the code in place with the hopes that another user may be able to fix it or that I will figure it out in the future.
 
 *The Code & The Earthquake Map*
 
@@ -33,7 +39,11 @@ N.B. file doesnt load in browser due to size but requires downloading
 
 - Please click [here](https://daisymay55.github.io/Earthquake_Distribution.html) for the Earthquake Map
 
-- Please click here for the UML Diagram
+- Please click [here](https://daisymay55.github.io/Earthquake_Heatmap.html) for the Earthquake Heatmap
+
+- Please click [here](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/Heatmap.py) for the heatmap code
+
+- Please click [here](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/UML%20Diagram%20.JPG) for the UML Diagram
 
 - For assistance please refer to the [readme](https://daisymay55.github.io/as2readme.html) file.
 
