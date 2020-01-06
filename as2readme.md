@@ -4,6 +4,7 @@ Additional information required to run the file along with the expected outcome 
 
 - Earthquakemap.py
 - Earthquakes2020.csv
+- Earthquakes_100.csv (Only required for Heatmap)
 - Countries.json
 
 *Software required*
