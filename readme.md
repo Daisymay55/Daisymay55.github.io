@@ -2,32 +2,30 @@ Additional information required to run the file along with the expected outcome 
 
 *Files required*
 
-- ABMUnit7.py
-- agentframework.py
-- in.txt
+- plague_app.py
+- requirements.txt
 
 *Software required*
 
-- A python program - This application was created in Spyder but should run in any python program
+- A Command Window - details below are designed for Anaconda Powershell Prompt but it should run in any Command Window and has been tested on both Windows & Mac.
 
 *How to run the application*
 
-- save the datafiles required into a directory,
-- open a python software and load the ABMUnit7.py file. 
-- click run within the python software to load the animated graph and any related text outputs
-- N.B. graph and text outputs may load in separate windows dependant on which python software is used
+- Save the data files required into a directory,
+- Open a Command Window. 
+- Set up a virtual environment if required or navigate to the directory with the data files.
+- Ensure the environment is running Python 3.9 or above.
+- Install the requirements.txt file using pip *(pip install -r requirements.txt)*
+- Once files have installed you can use *conda list* to check all the files have downloaded and the versions they are running.
+- Run the python file using *python plague_app.py* or *python3 plague_app.py*
+- Simulation will load [here](http://127.0.0.1:8050/)
+
+- Please click [here](https://docs.google.com/drawings/d/e/2PACX-1vQRlmjOl5kdzAC297T3YEo3mVAGyoJJ-3Rg4JcU4RKpL3d6-Hu7eSdKk8dGkZZuWWHc-WE2wVk4wmB_/pub?w=960&h=720) for a picture tutorial.
 
 *Expected output*
 
-- the animated model will generate and move the agents around the map for 500 iterations whilst eating the old data 
-  and sharing the new data with the other agents. 
-- the sharing of data will prevent the agents from colliding and if they become in close proximity of each other or 
-  the edge of the map they will automatically move away.
-- a text output will also be generated showing the starting coordinates for a random agent, it then shows the new coordinates for that agent after one move. This also proves that the agents are moving around at random as each time the application is run different coordinates will be given. 
+- the interactive model will display a simulated plague outbreak that can be tailoured by the user to analyse the impact of a bubonic plague outbreak on various population sizes with variable Reproduction Rates (R0).
 
-*Licences*
-- Data was supplied by University of Leeds as part of the GEOG5990M Programming for Spatial Analysts: Core Skills module.
-
-[Return to Assignment 1](https://daisymay55.github.io/index2.html)
+[Return to the Plague Model](https://daisymay55.github.io/plague_model.html)
 
 [Return to Home](https://daisymay55.github.io/home.html)
