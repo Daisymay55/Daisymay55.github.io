@@ -17,10 +17,9 @@ It is this, short notice global impact that I find interesting, particularly whe
 
 This is the reason why I chose to research one of the most notable pandemic diseases outbreaks in history, 'The Black Death', otherwise known as an outbreak of Bubonic Plague. At the time this disease decimated Europe's Population and given the increased ease and speed of travel both nationally and internationally I was keen to discover how a disease of this nature would impact todays population. 
 
-*The Assignments*
+*The Model*
 
-Below are the links to the two assignments that make up this module, along with their associated documentation. 
+Below is the link to the Plague Model and its associated documentation. 
 
-*[Plague Simulation](http://127.0.0.1:8050/)*
+*[Plague Model](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/Plague%20Model.md)*
 
-*[Assignment 2](https://daisymay55.github.io/Assignment2.html)*
