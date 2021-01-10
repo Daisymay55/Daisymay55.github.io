@@ -1,16 +1,16 @@
 
 ---
 **Plague Model**
----
+--
 
 **Model Details**
 
   This simulation models the outbreak of bubonic plague in modern day United Kingdom. The model can be adjusted by the user to change the population size, initial outbreak size  and R0 values. 
-  To run the model first download the requirements.txt & plague_app.py files listed below (Links 1 & 2). 
-  Open the Command Window and create a virtual environment if required. Ensure the Command Window/Virtual Environment is running Python 3.9 or above.
-  Install the requirements.txt file. *(pip install -r requirements.txt)*
-  Once the requirements have installed run the plague app *(python plague_app.py)*
-  Once the code has run successfully click on Link 3 to display the plague app in a web browser. *N.B. runs in both Chrome & Microsoft Edge.*
+ - To run the model first download the requirements.txt & plague_app.py files listed below (Links 1 & 2). 
+ - Open the Command Window and create a virtual environment if required. Ensure the Command Window/Virtual Environment is running Python 3.9 or above.
+ - Install the requirements.txt file. *(pip install -r requirements.txt)*
+ - Once the requirements have installed run the plague app *(python plague_app.py)*
+ - Once the code has run successfully click on Link 3 to display the plague app in a web browser. *N.B. runs in both Chrome & Microsoft Edge.*
 
 **The Code & The Model**
 
