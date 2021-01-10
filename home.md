@@ -1,10 +1,10 @@
 Welcome to my University of Leeds Dissertation Submission page.
 
-*Dissertation*
+**Dissertation**
 
-Modelling the ‘Black Death’ if it were to occur in Modern Day
+***Modelling the ‘Black Death’ if it were to occur in Modern Day***
 
-*Why I chose this topic*
+**Why I chose this topic**
 
 Having completed my BSc in Environmental Hazards and Disaster Management in 2017 I began working in the GIS industry as this was the 
 aspect I most enjoyed from my undergraduate degree. 
@@ -17,7 +17,7 @@ It is this, short notice global impact that I find interesting, particularly whe
 
 This is the reason why I chose to research one of the most notable pandemic diseases outbreaks in history, 'The Black Death', otherwise known as an outbreak of Bubonic Plague. At the time this disease decimated Europe's Population and given the increased ease and speed of travel both nationally and internationally I was keen to discover how a disease of this nature would impact todays population. 
 
-*The Model*
+**The Model**
 
 Below is the link to the Plague Model and its associated documentation. 
 
