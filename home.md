@@ -21,5 +21,5 @@ This is the reason why I chose to research one of the most notable pandemic dise
 
 Below is the link to the Plague Model and its associated documentation. 
 
-*[Plague Model](https://daisymay55.github.io/plaguemodel.html)*
+*[Plague Model](https://daisymay55.github.io/plague_model.html)*
 
