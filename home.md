@@ -23,3 +23,8 @@ Below is the link to the Plague Model and its associated documentation.
 
 *[Plague Model](https://daisymay55.github.io/plague_model.html)*
 
+**The Map**
+
+Below is the link to the Plague Map that shows the amount of fatalities per Local Authority
+
+*[Plague Map](https://github.com/Daisymay55/Daisymay55.github.io/blob/master/Plague%20Fatality%20Map-2.pdf)*
