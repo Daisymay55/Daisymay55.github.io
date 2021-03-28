@@ -2,7 +2,7 @@ Welcome to my University of Leeds Dissertation Submission page.
 
 **Dissertation**
 
-***Modelling the ‘Black Death’ if it were to occur in Modern Day***
+***Impact of a 'Black Death' Style Plague Outbreak across the United Kingdom in the 21st Century***
 
 **Why I chose this topic**
 
